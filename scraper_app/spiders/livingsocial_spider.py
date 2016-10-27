@@ -42,6 +42,3 @@ class LivingSocialSpider(Spider):
             for field, xpath in self.item_fields.items():
                 loader.add_xpath(field, xpath)
             yield loader.load_item()
-
-
-#'.//span[@itemscope]/meta[@itemprop="name"]/@content'
