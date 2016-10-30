@@ -1,3 +1,4 @@
+# Use this name to run bot manually
 BOT_NAME = 'livingsocial'
 
 SPIDER_MODULES = ['scraper_app.spiders']
